@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+      <item android:id="@+id/add_item_menu" android:title="Add"></item>
+        <item android:id="@+id/sub_item_menu" android:title="Subtract"></item>
+        <item android:id="@+id/mul_item_menu" android:title="Multiply">
+            <menu>
+                <item android:id="@+id/mul_sub_item_menu_1" android:title="Multiply by 2"></item>
+                <item android:id="@+id/mul_sub_item_menu_2" android:title="Multiply by 3"></item>
+            </menu>
+        </item>
+        <item android:id="@+id/divide_item_menu" android:title="Division"></item>
+</menu>

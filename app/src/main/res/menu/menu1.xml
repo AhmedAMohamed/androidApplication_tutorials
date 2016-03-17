@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item_1" android:title="value 1">
+        <menu>
+            <item android:id="@+id/item_11" android:title="value1 1"></item>
+            <item android:id="@+id/item_12" android:title="value1 2"></item>
+            <item android:id="@+id/item_13" android:title="value1 3"></item>
+        </menu>
+    </item>
+
+    <item android:id="@+id/item_2" android:title="value 2">
+        <menu>
+            <item android:id="@+id/item_21" android:title="value1 1"></item>
+            <item android:id="@+id/item_22" android:title="value1 2"></item>
+            <item android:id="@+id/item_23" android:title="value1 3"></item>
+        </menu>
+    </item>
+</menu>
