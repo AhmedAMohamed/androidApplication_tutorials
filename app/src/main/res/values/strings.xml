@@ -2,4 +2,6 @@
     <string name="app_name">General_App</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_viewer">Viewer</string>
+    <string name="title_activity_insert_movie">InsertMovie</string>
+    <string name="title_activity_show_list">ShowList</string>
 </resources>

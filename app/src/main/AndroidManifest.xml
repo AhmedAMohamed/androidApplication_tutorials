@@ -25,6 +25,16 @@
         </activity>
         <activity android:name=".Calculator" >
         </activity>
+        <activity
+            android:name=".InsertMovie"
+            android:label="@string/title_activity_insert_movie"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity
+            android:name=".ShowList"
+            android:label="@string/title_activity_show_list"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>

@@ -69,7 +69,7 @@ public class Home extends AppCompatActivity {
                 password = (EditText)findViewById(R.id.password);
                 String passwordValue = password.getText().toString();
 
-                Intent listActivity = new Intent(Home.this, Calculator.class);
+                Intent listActivity = new Intent(Home.this, InsertMovie.class);
                 listActivity.putExtra("user_name",userNameValue);
                 startActivity(listActivity);
             }

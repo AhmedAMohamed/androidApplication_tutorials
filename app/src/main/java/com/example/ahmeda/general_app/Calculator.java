@@ -70,16 +70,24 @@ public class Calculator extends AppCompatActivity {
     public boolean onContextItemSelected(MenuItem item) {
         if(item.getTitle().toString().contains("Mul"))
         {
-
+            if(item.getItemId() == R.id.mul_sub_item_menu_1) {
+                resultMainHandler("mul2");
+            }
+            else {
+                resultMainHandler("mul3");
+            }
             Toast.makeText(getApplicationContext(),"Mul", Toast.LENGTH_SHORT).show();
         }
         else if(item.getTitle().toString().contains("Add")) {
+            resultMainHandler("add");
             Toast.makeText(getApplicationContext(), "Add", Toast.LENGTH_SHORT).show();
         }
         else if(item.getTitle().toString().contains("Sub")) {
+            resultMainHandler("sub");
             Toast.makeText(getApplicationContext(), "Sub", Toast.LENGTH_SHORT).show();
         }
         else if(item.getTitle().toString().contains("Di")) {
+            resultMainHandler("div");
             Toast.makeText(getApplicationContext(), "Di", Toast.LENGTH_SHORT).show();
         }
         return super.onContextItemSelected(item);
